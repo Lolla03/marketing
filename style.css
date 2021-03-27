@@ -1,4 +1,4 @@
-/*body {
+body {
   font-family: "Roboto", Arial, sen-sans-serif;
   width: 100%;
 }
@@ -32,7 +32,7 @@
 }
 
 .header__text {
-  padding-left: 55%;
+  padding-left: 60%;
   padding-bottom: 20px;
 }
 
@@ -48,16 +48,17 @@
   opacity: .5;
 }
 
-.main__info {
-  width: 43%;
-}
-
 .main {
   text-align: center;
+  padding: 60px 0;
+  background: #E3EAFE;
+}
+
+.main__info {
+  width: 43%;
   display: flex;
   flex-direction: column;
-  padding: 60px 0;
-    background: #E3EAFE;
+  margin: auto;
 }
 
 .main__price {
@@ -125,23 +126,21 @@
 .footer__info {
   background: #E3EAFE;
   text-align: center;
-  align-items: center;
 }
 
 .footer__text {
   color: #585858;
   padding: 70px 40%;
-  font: 30px;
 }
 
 .footer__pics {
-  width: 82%;
+  width: 75%;
   margin: auto;
 }
 
 .footer__pic {
-  width: 18%;
-  padding: 0 10px 45px 0;
+  width: 22%;
+  padding: 0 5px 45px 0;
 }
 
 .footer__nav {

@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Robotobold";
   src: url('fonts/robotobold.woff') format("woff");
   p {font-family: "Roboto", Arial, sen-sans-serif;}
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Robotomedium";
   src: url('fonts/robotomedium.woff') format("woff");
   p {font-family: "Robotomedium", Arial, sen-sans-serif;}
 }

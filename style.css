@@ -105,14 +105,14 @@ body {
   text-decoration: 2px underline #FFDA45;
 }
 
-.section__container {
+.article {
   background: #405DBB;
   color: white;
   display: flex;
   justify-content: space-between;
 }
 
-.section__container__content {
+.article__content {
   width: 29%;
   padding: 8% 2% 8% 7%;
 }

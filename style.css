@@ -17,7 +17,7 @@ body {
   font-family: "Robotoregular", Arial, sen-sans-serif;
 }
 
-.menu__link {
+.header__menu_link {
   text-decoration: none;
   color: white;
   margin-right: 30px;
@@ -66,23 +66,22 @@ body {
   margin: auto;
 }
 
-.main__price {
-  color: #263B83;
-  margin-bottom: 15px;
-  font-size: 30px;
-}
-
 .main__text {
   color: #585858;
-  padding: 0 50px;
   font-size: 30px;
   font-weight: 500;
 }
 
+.main__price {
+  color: #263B83;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
 .main__button {
   margin: auto;
-  margin-bottom: 10px;
-  padding: 10px 50px;
+  margin-bottom: 15px;
+  padding: 10px 60px;
   text-decoration: none;
   color: black;
   font-size: 20px;
@@ -113,7 +112,7 @@ body {
   justify-content: space-between;
 }
 
-.section__container_content {
+.section__container__content {
   width: 29%;
   padding: 8% 2% 8% 7%;
 }
@@ -175,13 +174,13 @@ body {
   margin-right: 10%;
 }
 
-.info__pic {
-  display: flex;
-  flex-direction: row;
-}
-
 .loc__pic {
   padding-right: 5px;
+}
+
+.info__pic {
+display: flex;
+flex-direction: row;
 }
 
 .info__numbers {
@@ -190,10 +189,11 @@ body {
 
 .info__pic-phone {
   padding-right: 10px;
+  vertical-align: baseline;
 }
 
 @media (max-width: 1040px ) {
-  .hamburger__btn {
+  .hamburger-menu__btn {
   display: flex;
   align-items: center;
   position: fixed;

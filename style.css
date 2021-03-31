@@ -61,7 +61,7 @@ body {
 }
 
 .main__info {
-  width: 43%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -110,21 +110,26 @@ body {
 .article {
   background: #405DBB;
   color: white;
-  background-image: url(pics/section__pic.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .article__content {
   width: 29%;
-  padding: 8% 2% 8% 3%;
+  padding: 8% 4%;
+}
+
+.article__pic {
+  width: 40%;
+  background: url('pics/section__pic.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
 }
 
 .article__button {
-  margin: 135px 40px;
-  padding: 17px 30px;
+  margin: auto;
+  padding: 1.5% 3%;
   text-decoration: none;
   background: #FFDA45;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
@@ -179,7 +184,11 @@ body {
   margin-right: 10%;
 }
 
-.nav__loc_pic {
+.contacts__numbers {
+  padding-right: 10px;
+}
+
+.nav__pic {
   padding-right: 5px;
 }
 
@@ -188,11 +197,17 @@ display: flex;
 flex-direction: row;
 }
 
-.contact__numbers {
+.contacts__phone {
+  width: 10%;
+  background: url('pics/icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
   padding-right: 10px;
 }
 
-.contacts__pics__phone {
-  padding-right: 10px;
-  vertical-align: baseline;
+.contacts__teleg {
+  width: 10%;
+  background: url('pics/iconone.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }

@@ -5,12 +5,6 @@
 }
 
 @font-face {
-  font-family: "Robotomedium";
-  src: url('fonts/robotomedium.woff') format("woff");
-  p {font-family: "Robotomedium", Arial, sen-sans-serif;}
-}
-
-@font-face {
   font-family: "Robotoregular";
   src: url('fonts/robotoregular.woff') format("woff");
   p {font-family: "Robotoregular", Arial, sen-sans-serif;}

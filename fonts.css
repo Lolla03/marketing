@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "Robotobold";
-  src: url('fonts/robotobold.woff') format("woff");
-  p {font-family: "Roboto", Arial, sen-sans-serif;}
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-  font-family: "Robotoregular";
-  src: url('fonts/robotoregular.woff') format("woff");
-  p {font-family: "Robotoregular", Arial, sen-sans-serif;}
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: "Robotoregular", Arial, sen-sans-serif;
+  font-family: 'robotoregular', Arial, sen-sans-serif;
   width: 100%;
   font-weight: 900;
 }
@@ -13,12 +13,11 @@ body {
 }
 
 .header__title {
-  font-weight: 900;
+  font-family: 'robotobold';
 }
 
 .menu {
   padding: 4% 0 9% 0;
-  font-family: "Robotoregular", Arial, sen-sans-serif;
 }
 
 .menu__link {
